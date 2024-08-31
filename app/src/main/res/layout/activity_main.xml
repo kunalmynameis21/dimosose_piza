@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="70dp"
+    android:src="@drawable/baseline_arrow_drop_down_24"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Kunal"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="7519034248"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="126dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+
+
+        android:background="@drawable/kks">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text="2GB data free"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="329dp"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/headphone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="help"
+        android:layout_marginLeft="330dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/pay" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text=" recharge"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/sim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text="     new sim"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/mobile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text="     recharge"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/tablet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text="      OTT"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text="       roaming"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+        <LinearLayout
+            android:layout_width="56dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/game" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text=" Play and win"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+
+        <LinearLayout
+            android:layout_width="59dp"
+            android:layout_height="74dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/suitcase" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text="        travel"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <LinearLayout
+            android:layout_width="47dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/tune" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="75dp"
+            android:text="     caller tune"
+            android:textColor="@color/black"
+            android:textSize="11dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginTop="30dp"
+        android:background="#03A9F4"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-70dp"
+        android:text="Joint Vi Max postpaid" />
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-110dp"
+        android:text="Free SIM Delevery at Your Doorstep" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/delevrty"/>
+<TextView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:text="50"
+    android:textColor="@color/white"
+    android:layout_marginTop="-85dp"
+    android:layout_marginLeft="240dp"
+    android:textSize="20dp"
+    android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="unlimated₹299"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="-35dp"
+            android:text="(Last recharge)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-20dp"
+            android:text="1.7"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="-60dp"
+            android:text="GB"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="data left +" />
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-33dp"
+            android:text=" 12 MB add on data"
+
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="-75dp"
+            android:text="pack end in" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="10dp"
+            android:text="           7 days"
+            android:textColor="#F44336" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="recharge now"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/vi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-33dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/rupee"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recharge"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-33dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/shop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shop"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-33dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/pay"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pay"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-33dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/menu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="menu"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-33dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
